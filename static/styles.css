@@ -76,6 +76,12 @@ main {
     place-items: center;
 }
 
+@media (max-width: 650px) {
+    main {
+        max-width: 100%;
+    }
+}
+
 .display-box {
     width: 70%;
     margin: auto;
@@ -85,6 +91,12 @@ main {
     flex-direction: column  ;
     border-radius: 0.5rem;
     text-align: center;
+}
+
+@media (max-width: 650px) {
+    .display-box {
+        width: 50%
+    }
 }
 
 #custom-color {
@@ -104,7 +116,7 @@ main {
 
 .display-box h2 {
     letter-spacing: 0.25rem;
-    background-color: rgba(0, 0, 0, 0.9) !important;   
+    background-color: rgba(0, 0, 0, 0.9);   
     margin: auto;
     padding: 1.5rem;
     color: white;
