@@ -95,7 +95,7 @@ main {
 
 @media (max-width: 650px) {
     .display-box {
-        width: 50%
+        width: 100%
     }
 }
 
