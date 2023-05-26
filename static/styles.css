@@ -127,6 +127,13 @@ main {
     border-radius: 0.7rem;
 }
 
+
+@media (max-width: 650px) {
+    .display-box h2 {
+        font-size: 1.5rem;
+    }
+}
+
 .display-box > h2 > span {
     color: var(--primary-color)
 }
